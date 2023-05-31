@@ -1,0 +1,117 @@
+//valina js
+function getMsg(){
+
+return "Wlecome to pickupbiz"
+
+}
+
+getMsg()
+output-Welcome to pickupbiz
+
+===================================================================
+this is bultin function-
+
+setTimeout(()=>{console.log("i am called")
+},5000)
+
+if we have loop 
+for(var i=0;i<5;i++){
+ setTimeout(()=>{
+ console.log(i)
+},3000)
+}
+====================================================================
+for(let i=0;i<3;i++){
+ setTimeout(()=>{
+ console.log(i)
+},3000)
+}
+18
+VM5076:3 0
+VM5076:3 1
+VM5076:3 2
+
+===============================-----------========================
+for(let i=0;i<3;i++){
+ setTimeout(()=>{
+ console.log(i)
+},3000*i)
+}
+22
+VM5319:3 0
+VM5319:3 1
+VM5319:3 2
+
+
+
+-=======-------------=======================----------------==============
+foreach--loop-itreation
+
+map()
+
+***********************************************************
+arr1.map(item=>"<button>"+item+"</button>")
+(4) ['<button>2</button>', '<button>7</button>', '<button>5</button>', '<button>3</button>']
+
+================================================================
+//modernjs /Arrow Function.
+
+const getMsg=()=>"Welcome to pickupbiz"
+
+
+=========================================================================
+const getMsg=()=>"Welcome to pickupbiz"
+undefined
+getMsg()
+'Welcome to pickupbiz'
+const getMsg=()=>"Welcome to My World"
+undefined
+getMsg()
+'Welcome to My World'
+const sum=(num1,num2)=> num1+num2
+undefined
+sum(4,8)
+12
+sum(20,30)
+50
+const getSum3=(n1,n2,n3)=> n1+name2+n3
+undefined
+const getSum3=(n1,n2,n3)=> n1+n2+n3
+undefined
+getSum3(5,5,5)
+15
+getSum3(15,25,40)
+80
+const mult=(n1,n2)=>n1*n2
+undefined
+mult(2,5)
+10
+===========================================================\
+mil
+
+const getmil=(mil,dis,rate)=>(dis/mil)*rate
+undefined
+getmil(22,300,115)
+1568.1818181818182
+
+const getmil=(mil,dis,rate)=>Math.ceil((dis/mil)*rate)
+undefined
+getmil(22,300,115)
+1569
+
+==============================================================/
+const even=(num)=>num%2===0
+undefined
+even(5)
+false
+even(4)
+true
+==============================================================/
+const odd=(num)=>num%2===1
+undefined
+odd(5)
+true
+odd(4)
+false
+
+===================================================================

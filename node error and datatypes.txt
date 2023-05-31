@@ -1,0 +1,24 @@
+*Var
+-var can be declare and assign
+-var can be reassign
+-var can be redeclare
+-var is mutable
+-var can be hoisted.
+
+*let
+-let can be declare and assign
+-let can be reassign
+-let cannot be redeclare
+-let is mutable
+-let cannot be hoisted.
+
+*const
+-const must be declare and assign
+-const cannot be reassign
+-const cannot be redeclare
+-const is immutable
+-const cannot be hoisted.
+=========================================================================
+Es6s
+nums.forEach(item=>console.log(item))
+

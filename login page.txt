@@ -1,0 +1,12 @@
+   <Card>
+            <CardContent align="center" >
+                <Grid container spacing={3}>
+                    <Grid item xs={12} sx={{ fontSize: 30 }}><label>Sign Up</label></Grid>
+                    <Grid item xs={12} align="left"><label>Email:</label></Grid>
+                    <Grid item xs={12} align="left"><TextField variant="outlined" label="Email" /></Grid>
+                    <Grid item xs={12} align="left" ><label>PassWord:</label></Grid>
+                    <Grid item xs={12} align="left" ><TextField variant="outlined" label="Password" /></Grid>
+                    <Grid item xs><Button variant="contained" color="error">Sign Up</Button></Grid>
+                </Grid>
+            </CardContent>
+        </Card >
